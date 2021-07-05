@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .sidenav{
+        height: 100%;
+        width: 100px;
+        position: fixed;
+        z-index: 1;
+        top:0;
+        left:0;
+        background-color:#F8F8F8;
+        overflow-x: hidden;
+        padding-top: 20px;
+        box-shadow:7px 0 5px 0 #E8E8E8;
+    
+    }   
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 12px;
+        color: darkgrey;
+        display: block;
+        font-family: sans-serif;
+        font-weight: 550;
+     
+        }
+ 
+    .sidenav a:hover{
+        color: black;
+        background-color: #C6DEFF;
+        height: 60px;
+        padding-top: 25px;
+        border-left: 5px solid #6495ED;
+    }
+    @media screen and (max-height:450px)
+    {
+        .sidenav{padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
+    .main
+    {
+        margin-left: 100px;
+        padding: 0 30px;
+        padding-top: 40px;
+        color: darkgrey;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .main2
+    {
+        margin-left: 250px;
+            padding: 0 30px;
+        padding-top: 30px;
+        
+    }
+    .para
+    {
+        margin-left: 600px;
+            padding: 0 30px;
+        padding-top: 15px; 
+    
+    }
+    .main3
+    {
+      margin-left: 245px;
+            padding: 0 30px;
+        padding-top: 30px;  
+    }
+    input[type="text"]::placeholder
+    {
+        text-align: center;
+        font-weight: bold;
+        font-family: sans-serif;
+        
+    }
+    input
+    {
+        border: 0;
+        font-weight: bold;
+        font-family: sans-serif;
+        border-radius: 7px;
+    }
+    .content
+    {
+        background-color: #F0F0F0;
+    }
+    .header
+    {
+        background-color: white;
+       padding: 8px;
+       
+    }
+    body,html
+    {
+        margin: 0;
+        padding: 0;
+    }
+   .fa-cog{
+        color: white;
+       font-size:1.5em;
+    }
+    .fa-user{
+           color: white;
+       font-size:1.5em;
+    }
+    .fa-book{
+           color: white;
+       font-size:1.5em;
+    }
+    .stroke-transparent{
+        -webkit-text-stroke: 1px #3A3B3C;
+        -webkit-text-fill-color:transparent;
+        }
+    </style>
+    </head>
+<body class="content">
+<div class="header">
+    <h1>&nbsp;</h1>
+</div>
+ <center>
+  <div class="sidenav">
+     <div id="img1">
+         <img src="C:\Users\user\Pictures\New folder\ans.jpg">
+     </div>
+      <a style="margin-top: 30px" href="#students"><i class="fa fa-fw fa-user stroke-transparent"></i><br>Students</a>
+     <a style="margin-top: 30px" href="#lessonplan"><i class="fa fa-book stroke-transparent"></i><br>Lesson Plan</a>
+      <a style="margin-top: 30px" href="#settings"><i class="fa fa-cog stroke-transparent"></i><br>Settings</a>
+    </div>
+    </center>
+    
+    
+    <div class="main">
+           <i style="transform: scaleX(-1); font-size: 11px" class="fa fa-play"></i>&nbsp;&nbsp;Videos </div>
+           <div class="main2">
+           <br><input type="url" id="homepage" name="homepage" placeholder="Insert URL here" style="height: 30px;width:800px">
+           </div>
+           <p class="para">or</p>
+   
+ <div class="main3">
+     <input type="text" id="upload" name="upload" placeholder="Upload" style="height: 130px;width:130px">
+ </div>
+   
+</body>
+
+ 
+
+</html>
